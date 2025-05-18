@@ -1,0 +1,81 @@
+[INFO][13:32] Test message
+[WARN][13:32] Test warning
+[ERROR][13:32] Test error
+[INFO][14:01] Test message
+[WARN][14:01] Test warning
+[ERROR][14:01] Test error
+[INFO][14:27] Test message
+[WARN][14:27] Test warning
+[ERROR][14:27] Test error
+[ERROR][19:09] Wrong size. Example: 3x3
+[ERROR][19:26] Wrong size. Example: 3x3
+[INFO][3:35] M: 4x4 for 3E: 19656
+[WARN][4:06] No torches found!
+[INFO][4:06] S: 1/3E: 19607
+[INFO][4:46] S: 2/3E: 19558
+[INFO][5:27] S: 3/3E: 19509
+[INFO][5:49] 
+- M: 4x4/2 E: 19509
+[WARN][6:30] No torches found!
+[INFO][6:30] S: 1/2 E: 19460
+[INFO][7:12] S: 2/2 E: 19411
+[INFO][7:54] 
+- M: 4x4/24 E: 19411
+[INFO][8:37] 
+- S: 1/24 E: 19362
+[INFO][9:19] 
+- S: 2/24 E: 19313
+[INFO][10:00] 
+- S: 3/24 E: 19264
+[INFO][10:41] 
+- S: 4/24 E: 19215
+[INFO][11:22] 
+- S: 5/24 E: 19166
+[INFO][12:02] 
+- S: 6/24 E: 19119
+[INFO][17:08] 
+- M: 4x4/inf E: 19084
+[INFO][17:52] 
+- S: 1/inf E: 19035
+[INFO][18:33] 
+- S: 2/inf E: 18986
+[INFO][19:14] 
+- S: 3/inf E: 18937
+[INFO][19:55] 
+- S: 4/inf E: 18888
+[INFO][20:36] 
+- S: 5/inf E: 18839
+[INFO][21:17] 
+- S: 6/inf E: 18790
+[INFO][21:59] 
+- S: 7/inf E: 18741
+[INFO][22:40] 
+- S: 8/inf E: 18692
+[INFO][3:47] 
+- M: 4x4/inf E: 18684
+[WARN][4:28] 
+- No torches found!
+[INFO][4:28] 
+- S: 1/inf E: 18635
+[INFO][5:09] 
+- S: 2/inf E: 18586
+[INFO][5:50] 
+- S: 3/inf E: 18537
+[INFO][6:31] 
+- S: 4/inf E: 18488
+[INFO][7:11] 
+- S: 5/inf E: 18439
+[INFO][7:52] 
+- S: 6/inf E: 18390
+[INFO][8:33] 
+- S: 7/inf E: 18341
+[INFO][9:14] 
+- S: 8/inf E: 18292
+[INFO][9:57] 
+- S: 9/inf E: 18243
+[INFO][10:38] 
+- S: 10/inf E: 18194
+[INFO][11:17] 
+- S: 11/inf E: 18145
+[INFO][11:56] 
+- S: 12/inf E: 18096

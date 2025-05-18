@@ -1,0 +1,5 @@
+local length = tonumber(...) or 1
+
+for i = 1, length do
+  turtle.up()
+end

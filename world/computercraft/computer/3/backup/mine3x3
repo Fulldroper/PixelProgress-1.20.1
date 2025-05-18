@@ -1,0 +1,110 @@
+-- tunnel3x3.lua
+-- Копає тунель 3x3 вперед на задану довжину і повертається назад
+function cls()
+  term.clear()
+  term.setCursorPos(1, 1)
+end
+
+cls()
+
+local length = tonumber(...) or error("Usage: tunnel3x3 <length>")
+local fuelStart = turtle.getFuelLevel()
+local fuelRequired = length + (length * 5)
+
+print("start dig " .. tostring(length) .. " blocks")
+-- Заправка
+local function refuelIfNeeded()
+  local fuelNow = turtle.getFuelLevel()
+  local fuelUsed = fuelStart - fuelNow
+  local fuelLeftToUse = fuelRequired - fuelUsed
+  
+  print("🔋 fuel: [" .. fuelUsed .. "/" .. fuelLeftToUse .. "]")
+  
+  if fuelNow > 10 then
+    return -- Палива поки що достатньо
+  end
+
+  for slot = 1, 16 do
+    local item = turtle.getItemDetail(slot)
+    if item then
+      turtle.select(slot)
+      if turtle.refuel(1) then
+        print("✅ refuelet from slot: " .. slot)
+        return
+      end
+    end
+  end
+
+  error("❌ no fuel in inventory!")
+end
+
+-- direction: "front", "up", "down"
+function ensureBlockBroken(direction)
+  local detect, dig
+
+  if direction == "front" then
+    detect = turtle.detect
+    dig = turtle.dig
+  elseif direction == "up" then
+    detect = turtle.detectUp
+    dig = turtle.digUp
+  elseif direction == "down" then
+    detect = turtle.detectDown
+    dig = turtle.digDown
+  else
+    error("❌ Unknown direction: " .. tostring(direction))
+  end
+
+  while detect() do
+    dig()
+  end
+end
+
+
+-- Копає 3x3 секцію перед черепашкою
+local function dig3x3Section()
+  -- Центр
+  ensureBlockBroken("front")
+  turtle.forward()
+  turtle.turnLeft()
+  ensureBlockBroken("front")
+  turtle.turnRight()
+  turtle.turnRight()
+  ensureBlockBroken("front")
+  
+  ensureBlockBroken("up")
+  turtle.up()
+  ensureBlockBroken("front")
+  turtle.turnLeft()
+  turtle.turnLeft()
+  ensureBlockBroken("front")
+
+  ensureBlockBroken("up")
+  turtle.up()
+  ensureBlockBroken("front")
+  turtle.turnRight()
+  turtle.turnRight()
+  ensureBlockBroken("front")
+  
+  turtle.turnLeft()
+  turtle.down()
+  turtle.down()
+end
+
+-- Головна логіка копання
+for i = 1, length do
+  refuelIfNeeded()
+  dig3x3Section()
+  turtle.forward()
+end
+
+-- Повернення на старт
+turtle.turnLeft()
+turtle.turnLeft()
+for i = 1, length do
+  refuelIfNeeded()
+  turtle.forward()
+end
+turtle.turnRight()
+turtle.turnRight()
+print("end dig " .. tostring(length) .. " blocks")

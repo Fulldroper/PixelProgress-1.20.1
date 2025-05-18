@@ -1,0 +1,202 @@
+[INFO][17:02] 
+- M: 4x4/inf E: 20000
+[INFO][17:44] 
+- S: 1/inf E: 19951
+[INFO][18:23] 
+- S: 2/inf E: 19902
+[INFO][19:01] 
+- S: 3/inf E: 19853
+[INFO][19:40] 
+- S: 4/inf E: 19804
+[INFO][20:19] 
+- S: 5/inf E: 19755
+[INFO][20:58] 
+- S: 6/inf E: 19706
+[INFO][21:37] 
+- S: 7/inf E: 19657
+[INFO][22:16] 
+- S: 8/inf E: 19608
+[INFO][22:59] 
+- S: 9/inf E: 19559
+[INFO][23:40] 
+- S: 10/inf E: 19510
+[INFO][0:20] 
+- S: 11/inf E: 19461
+[INFO][1:01] 
+- S: 12/inf E: 19412
+[INFO][1:42] 
+- S: 13/inf E: 19363
+[INFO][2:24] 
+- S: 14/inf E: 19314
+[INFO][3:05] 
+- S: 15/inf E: 19265
+[INFO][3:46] 
+- S: 16/inf E: 19216
+[INFO][4:29] 
+- S: 17/inf E: 19167
+[INFO][5:10] 
+- S: 18/inf E: 19118
+[INFO][9:46] 
+- M: 4x4/inf E: 19111
+[INFO][10:29] 
+- S: 1/inf E: 19062
+[INFO][11:10] 
+- S: 2/inf E: 19013
+[INFO][11:51] 
+- S: 3/inf E: 18964
+[INFO][22:38] 
+- M: 4x4/inf E: 18931
+[INFO][23:05] 
+- S: 1/inf E: 18891
+[INFO][23:30] 
+- S: 2/inf E: 18851
+[INFO][23:55] 
+- S: 3/inf E: 18811
+[INFO][4:50] 
+- M: 4x4/inf E: 18803
+[INFO][5:25] 
+- S: 1/inf E: 18763
+[INFO][6:54] 
+- M: 4x4/inf E: 18745
+[INFO][7:29] 
+- S: 1/inf E: 18706
+[INFO][8:02] 
+- S: 2/inf E: 18667
+[INFO][8:35] 
+- S: 3/inf E: 18628
+[INFO][9:08] 
+- S: 4/inf E: 18589
+[INFO][9:40] 
+- S: 5/inf E: 18550
+[INFO][10:13] 
+- S: 6/inf E: 18511
+[INFO][10:46] 
+- S: 7/inf E: 18472
+[INFO][11:19] 
+- S: 8/inf E: 18433
+[INFO][11:54] 
+- S: 9/inf E: 18394
+[INFO][12:27] 
+- S: 10/inf E: 18355
+[INFO][12:59] 
+- S: 11/inf E: 18316
+[INFO][13:32] 
+- S: 12/inf E: 18277
+[INFO][14:05] 
+- S: 13/inf E: 18238
+[INFO][14:38] 
+- S: 14/inf E: 18199
+[INFO][15:10] 
+- S: 15/inf E: 18160
+[INFO][15:43] 
+- S: 16/inf E: 18121
+[INFO][16:19] 
+- S: 17/inf E: 18082
+[INFO][16:51] 
+- S: 18/inf E: 18043
+[INFO][17:24] 
+- S: 19/inf E: 18004
+[INFO][17:39] 
+- M: 4x10/inf E: 18003
+[INFO][18:52] 
+- S: 1/inf E: 17916
+[INFO][19:02] 
+- M: 10x10/inf E: 17915
+[INFO][22:03] 
+- S: 1/inf E: 17696
+[INFO][0:56] 
+- S: 2/inf E: 17477
+[INFO][3:48] 
+- S: 3/inf E: 17258
+[INFO][6:45] 
+- S: 4/inf E: 17039
+[INFO][9:40] 
+- S: 5/inf E: 16820
+[INFO][12:36] 
+- S: 6/inf E: 16601
+[INFO][15:33] 
+- S: 7/inf E: 16382
+[INFO][18:29] 
+- S: 8/inf E: 16163
+[INFO][21:27] 
+- S: 9/inf E: 15944
+[INFO][0:24] 
+- S: 10/inf E: 15725
+[INFO][3:20] 
+- S: 11/inf E: 15506
+[INFO][6:16] 
+- S: 12/inf E: 15287
+[INFO][9:16] 
+- S: 13/inf E: 15068
+[INFO][12:13] 
+- S: 14/inf E: 14849
+[INFO][15:10] 
+- S: 15/inf E: 14630
+[INFO][18:06] 
+- S: 16/inf E: 14411
+[INFO][21:06] 
+- S: 17/inf E: 14192
+[INFO][0:01] 
+- S: 18/inf E: 13973
+[INFO][2:58] 
+- S: 19/inf E: 13754
+[INFO][5:54] 
+- S: 20/inf E: 13535
+[INFO][8:50] 
+- S: 21/inf E: 13316
+[INFO][11:45] 
+- S: 22/inf E: 13097
+[INFO][14:42] 
+- S: 23/inf E: 12878
+[INFO][17:39] 
+- S: 24/inf E: 12659
+[INFO][20:38] 
+- S: 25/inf E: 12440
+[INFO][23:34] 
+- S: 26/inf E: 12221
+[INFO][2:30] 
+- S: 27/inf E: 12002
+[INFO][5:26] 
+- S: 28/inf E: 11783
+[INFO][8:22] 
+- S: 29/inf E: 11564
+[INFO][11:19] 
+- S: 30/inf E: 11345
+[INFO][13:55] 
+- S: 31/inf E: 11126
+[INFO][16:22] 
+- S: 32/inf E: 10907
+[INFO][19:12] 
+- S: 33/inf E: 10687
+[INFO][22:06] 
+- S: 34/inf E: 10469
+[INFO][1:02] 
+- S: 35/inf E: 10250
+[INFO][3:58] 
+- S: 36/inf E: 10031
+[INFO][6:54] 
+- S: 37/inf E: 9812
+[INFO][7:34] 
+- M: 4x20/inf E: 9806
+[INFO][8:30] 
+- M: 20x4/inf E: 9768
+[WARN][11:12] 
+- No torches found!
+[INFO][11:12] 
+- S: 1/inf E: 9583
+[INFO][14:01] 
+- S: 2/inf E: 9386
+[INFO][16:41] 
+- S: 3/inf E: 9189
+[INFO][18:49] 
+- S: 4/inf E: 8990
+[INFO][21:28] 
+- S: 5/inf E: 8792
+[INFO][23:33] 
+- S: 6/inf E: 8594
+[INFO][1:38] 
+- S: 7/inf E: 8396
+[INFO][3:43] 
+- S: 8/inf E: 8198
+[INFO][5:51] 
+- S: 9/inf E: 8000
