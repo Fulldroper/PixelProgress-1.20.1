@@ -841,6 +841,7 @@
       "suspicious_stew": "2025-05-20 02:38:09 +0300",
       "salmon": "2025-05-12 02:31:39 +0300",
       "dried_kelp": "2025-05-19 05:20:24 +0300",
+      "melon_slice": "2025-05-21 00:40:55 +0300",
       "golden_carrot": "2025-05-19 01:41:05 +0300",
       "cooked_chicken": "2025-05-09 13:33:50 +0300",
       "mushroom_stew": "2025-05-07 19:10:41 +0300",
@@ -8120,12 +8121,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/schematics/schematic_table": {
-    "criteria": {
-      "has_item": "2025-05-20 14:29:45 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_light_blue_wool": {
     "criteria": {
       "has_needed_dye": "2025-05-20 14:29:31 +0300"
@@ -8138,12 +8133,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/schematics/schematicannon": {
-    "criteria": {
-      "has_item": "2025-05-20 14:29:45 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_light_blue_carpet": {
     "criteria": {
       "has_needed_dye": "2025-05-20 14:29:31 +0300"
@@ -8153,6 +8142,18 @@
   "minecraft:recipes/decorations/light_blue_candle": {
     "criteria": {
       "has_light_blue_dye": "2025-05-20 14:29:31 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/schematics/schematic_table": {
+    "criteria": {
+      "has_item": "2025-05-20 14:29:45 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/schematics/schematicannon": {
+    "criteria": {
+      "has_item": "2025-05-20 14:29:45 +0300"
     },
     "done": true
   },
