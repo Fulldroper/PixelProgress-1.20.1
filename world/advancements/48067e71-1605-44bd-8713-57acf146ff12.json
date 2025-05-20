@@ -10,6 +10,7 @@
       "minecraft:snowy_slopes": "2025-05-17 00:44:13 +0300",
       "minecraft:old_growth_pine_taiga": "2025-05-17 01:23:13 +0300",
       "minecraft:taiga": "2025-05-15 22:07:09 +0300",
+      "minecraft:deep_ocean": "2025-05-21 01:04:30 +0300",
       "minecraft:frozen_river": "2025-05-17 00:46:08 +0300",
       "minecraft:sunflower_plains": "2025-05-17 18:45:11 +0300",
       "minecraft:birch_forest": "2025-05-09 01:17:13 +0300",
@@ -20,6 +21,7 @@
       "minecraft:mangrove_swamp": "2025-05-17 18:47:41 +0300",
       "minecraft:sparse_jungle": "2025-05-20 14:16:48 +0300",
       "minecraft:river": "2025-05-09 01:06:21 +0300",
+      "minecraft:lukewarm_ocean": "2025-05-21 00:58:08 +0300",
       "minecraft:snowy_plains": "2025-05-17 00:44:19 +0300",
       "minecraft:stony_shore": "2025-05-17 00:28:38 +0300",
       "minecraft:dripstone_caves": "2025-05-11 22:58:28 +0300",
@@ -36,6 +38,7 @@
       "minecraft:jungle": "2025-05-20 14:17:01 +0300",
       "minecraft:old_growth_spruce_taiga": "2025-05-17 00:29:43 +0300",
       "minecraft:snowy_beach": "2025-05-17 01:00:21 +0300",
+      "minecraft:deep_lukewarm_ocean": "2025-05-21 01:03:21 +0300",
       "minecraft:flower_forest": "2025-05-09 02:20:08 +0300",
       "minecraft:old_growth_birch_forest": "2025-05-09 01:10:18 +0300",
       "minecraft:deep_dark": "2025-05-15 23:25:33 +0300",
@@ -6462,6 +6465,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2025-05-20 23:16:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2025-05-20 23:16:30 +0300"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/steam_whistle": {
     "criteria": {
       "has_item": "2025-05-21 00:01:45 +0300"
@@ -6474,12 +6489,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
-    "criteria": {
-      "has_kelp": "2025-05-20 23:16:30 +0300"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/materials/copper_nugget": {
     "criteria": {
       "has_item": "2025-05-21 00:01:45 +0300"
@@ -6489,12 +6498,6 @@
   "create:copper": {
     "criteria": {
       "0": "2025-05-21 00:01:45 +0300"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/dark_oak_cabinet": {
-    "criteria": {
-      "has_dark_oak_trapdoor": "2025-05-21 00:21:49 +0300"
     },
     "done": true
   },
@@ -6519,12 +6522,6 @@
   "minecraft:recipes/redstone/lightning_rod": {
     "criteria": {
       "has_copper_ingot": "2025-05-21 00:01:45 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2025-05-21 00:22:00 +0300"
     },
     "done": true
   },
@@ -6564,12 +6561,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/dried_kelp_from_smoking": {
-    "criteria": {
-      "has_kelp": "2025-05-20 23:16:30 +0300"
-    },
-    "done": true
-  },
   "create:recipes/decorations/copper_ladder_from_ingots_copper_stonecutting": {
     "criteria": {
       "has_ingots_copper": "2025-05-21 00:01:45 +0300"
@@ -6591,12 +6582,6 @@
   "create:recipes/decorations/copper_scaffolding_from_ingots_copper_stonecutting": {
     "criteria": {
       "has_ingots_copper": "2025-05-21 00:01:45 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
-    "criteria": {
-      "has_coast_armor_trim_smithing_template": "2025-05-21 00:22:00 +0300"
     },
     "done": true
   },
@@ -6627,6 +6612,48 @@
   "create:recipes/decorations/copper_bars_from_ingots_copper_stonecutting": {
     "criteria": {
       "has_ingots_copper": "2025-05-21 00:01:45 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/dark_oak_cabinet": {
+    "criteria": {
+      "has_dark_oak_trapdoor": "2025-05-21 00:21:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-05-21 00:22:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2025-05-21 00:22:00 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/nether_salad": {
+    "criteria": {
+      "has_bowl": "2025-05-21 01:50:21 +0300"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/xp_pump_upgrade": {
+    "criteria": {
+      "has_advanced_pump_upgrade": "2025-05-21 02:22:00 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mixed_salad": {
+    "criteria": {
+      "has_bowl": "2025-05-21 01:50:21 +0300"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_pump_upgrade": {
+    "criteria": {
+      "has_pump_upgrade": "2025-05-21 02:20:32 +0300"
     },
     "done": true
   },
