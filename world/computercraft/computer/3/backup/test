@@ -1,5 +1,0 @@
-local log = require("logger")
-
-log.info("Test message")
-log.warn("Test warning")
-log.error("Test error")

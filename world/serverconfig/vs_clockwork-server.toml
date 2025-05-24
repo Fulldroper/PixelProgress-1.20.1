@@ -23,6 +23,6 @@
 			#[in Stress Units]
 			#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
 			[cwkinetics.cwstressValues.v2.impact]
-				flap_bearing = 4.0
 				redstone_resistor = 0.0
+				flap_bearing = 4.0
 
